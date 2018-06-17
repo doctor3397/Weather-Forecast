@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const GOOGLE_MAPS_API_KEY = "AIzaSyBu2HysW33dcCTR64A4G-RRi4xip1-efAI";//"AIzaSyDHw0pg2HzfXwMeUPh2l8ZtLG_JMCcDzZE";
+const GOOGLE_MAPS_API_KEY = "AIzaSyBu2HysW33dcCTR64A4G-RRi4xip1-efAI";
 const API_KEY = "191d69a2d843d17f34d94b2c3dae7e5e";
 
 const GEO_LOCATION_URL = `https://www.googleapis.com/geolocation/v1/geolocate?key=${GOOGLE_MAPS_API_KEY}`;
