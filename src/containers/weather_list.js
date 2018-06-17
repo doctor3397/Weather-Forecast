@@ -1,8 +1,7 @@
 import _ from 'lodash';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { dateConverter } from '../helper';
-import { dayConverter } from '../helper';
+import { dateConverter,  dayConverter, capitalizeFirstLetter } from '../helper';
 
 class WeatherList extends Component {
 
@@ -19,7 +18,7 @@ class WeatherList extends Component {
               <img src={`http://openweathermap.org/img/w/${dailyWeather.weather[0].icon}.png`} className="weather__next__image" />
               <span className="weather__today__temp">{ Math.round(dailyWeather.temp.day - 273)}</span><span className="weather__today__deg">°C</span>
             </span>
-            <span className="weather__desc">{dailyWeather.weather[0].description}</span>
+            <span className="weather__desc">{capitalizeFirstLetter(dailyWeather.weather[0].description)}</span>
           </div>
         )
       }

@@ -34,6 +34,7 @@
 
 .weather__desc {
   padding-left: 1rem;
+  text-transform: capitalize;
 }
 
 .weather__next {
@@ -46,12 +47,19 @@
   text-align: center;
 }
 
+.weather__next__item div {
+  text-transform: capitalize;
+}
+
 .weather__next__item span {
   display: block;
 }
 
 .weather__next__image {
   width: 30%;
+}
+.weather__next__item img{
+  width: 65%;
 }
 
 .btn-success {
