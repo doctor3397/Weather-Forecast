@@ -1,0 +1,59 @@
+.weather {
+  flex-grow: 1;
+  padding: 1em;
+}
+
+.weather__location {
+  display: block;
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+.weather__ {
+  display: block;
+  font-size: 1.2em;
+}
+
+.weather__today {
+  width: 60%;
+  vertical-align: middle;
+}
+
+.weather__today__image {
+  vertical-align: middle
+}
+
+.weather__today__temp {
+  font-size: 3em;
+}
+
+.weather__today__deg {
+  font-size: 2em;
+  display: inline;
+}
+
+.weather__desc {
+  padding-left: 1rem;
+}
+
+.weather__next {
+  padding-left: 0;
+}
+
+.weather__next__item {
+  display: inline-block;
+  width: 15%;
+  text-align: center;
+}
+
+.weather__next__item span {
+  display: block;
+}
+
+.weather__next__image {
+  width: 30%;
+}
+
+.btn-success {
+  margin: 1rem 0;
+}
